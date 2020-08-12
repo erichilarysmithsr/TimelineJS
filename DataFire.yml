@@ -62,3 +62,10 @@ tests:
     accounts: {}
     input:
       X-Postmark-Server-Token: '""'
+  test2:
+    action: yellowpages/search.get
+    accounts: {}
+    input:
+      User-Agent: '""'
+      term: '""'
+      searchloc: '""'
