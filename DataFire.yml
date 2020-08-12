@@ -26,6 +26,19 @@ tasks:
       array: ApiTokens
       input:
         X-Postmark-Server-Token: '""'
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: yellowpages/search.get
+    accounts: {}
+    monitor:
+      action: yellowpages/search.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        User-Agent: '""'
+        term: '""'
+        searchloc: '""'
 paths:
   /paths0:
     get:
