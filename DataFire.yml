@@ -39,3 +39,8 @@ tests:
     action: mailchimp/getPing
     accounts: {}
     input: {}
+  test1:
+    action: postmarkapp_server/getCurrentServerConfiguration
+    accounts: {}
+    input:
+      X-Postmark-Server-Token: '""'
