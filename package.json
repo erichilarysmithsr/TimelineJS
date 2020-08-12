@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@datafire/mailchimp": "6.0.0"
+    "@datafire/mailchimp": "6.0.0",
+    "@datafire/postmarkapp_server": "5.0.0"
   }
 }
