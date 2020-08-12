@@ -48,6 +48,10 @@ paths:
     get:
       action: postmarkapp_server/getCurrentServerConfiguration
       accounts: {}
+  /paths2:
+    get:
+      action: yellowpages/search.get
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
