@@ -14,6 +14,17 @@ tasks:
       trackBy: ''
       array: ''
       input: {}
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: postmarkapp_server/getCurrentServerConfiguration
+    accounts: {}
+    monitor:
+      action: postmarkapp_server/getCurrentServerConfiguration
+      accounts: {}
+      trackBy: TypeCode
+      array: ApiTokens
+      input:
+        X-Postmark-Server-Token: '""'
 paths:
   /paths0:
     get:
