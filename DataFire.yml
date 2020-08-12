@@ -18,3 +18,8 @@ paths:
     get:
       action: mailchimp/getPing
       accounts: {}
+tests:
+  test:
+    action: mailchimp/getPing
+    accounts: {}
+    input: {}
