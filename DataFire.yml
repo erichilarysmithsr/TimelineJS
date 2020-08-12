@@ -30,6 +30,10 @@ paths:
     get:
       action: mailchimp/getPing
       accounts: {}
+  /paths1:
+    get:
+      action: postmarkapp_server/getCurrentServerConfiguration
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
