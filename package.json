@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@datafire/mailchimp": "6.0.0",
-    "@datafire/postmarkapp_server": "5.0.0"
-  }
+    "@datafire/postmarkapp_server": "5.0.0",
+    "@datafire/yellowpages": "4.0.0"
+  },
+  "name": "wordbuybigmouthpublications",
+  "version": "1.0.0"
 }
