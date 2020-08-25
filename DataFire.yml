@@ -129,3 +129,8 @@ tests:
     input:
       X-Postmark-Account-Token: '""'
       serverid: 0
+  test5:
+    action: google_tagmanager/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
