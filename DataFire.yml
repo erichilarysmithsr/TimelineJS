@@ -107,3 +107,9 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test4:
+    action: postmarkapp_account/getServerInformation
+    accounts: {}
+    input:
+      X-Postmark-Account-Token: '""'
+      serverid: 0
