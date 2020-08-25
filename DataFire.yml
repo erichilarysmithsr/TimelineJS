@@ -85,3 +85,8 @@ tests:
       User-Agent: '""'
       term: '""'
       searchloc: '""'
+  test3:
+    action: google_analytics/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
