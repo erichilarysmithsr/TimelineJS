@@ -5,6 +5,7 @@ actions:
   action1: ./actions/action1.js
   action2: ./actions/action2.js
   action3: ./actions/action3.js
+  action4: ./actions/action4.js
 tasks:
   task:
     schedule: cron(5 8 ? * 0)
@@ -51,6 +52,18 @@ tasks:
       array: ''
       input:
         code: '""'
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: postmarkapp_account/getServerInformation
+    accounts: {}
+    monitor:
+      action: postmarkapp_account/getServerInformation
+      accounts: {}
+      trackBy: WeakDKIM
+      array: ApiTokens
+      input:
+        X-Postmark-Account-Token: '""'
+        serverid: 0
 paths:
   /paths0:
     get:
