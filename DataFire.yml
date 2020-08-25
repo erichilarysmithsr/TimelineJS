@@ -40,6 +40,17 @@ tasks:
         User-Agent: '""'
         term: '""'
         searchloc: '""'
+  task3:
+    schedule: cron(5 8 ? * 0)
+    action: google_analytics/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_analytics/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
