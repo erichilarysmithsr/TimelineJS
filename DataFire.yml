@@ -81,6 +81,10 @@ paths:
     get:
       action: google_analytics/oauthCallback
       accounts: {}
+  /paths4:
+    get:
+      action: postmarkapp_account/getServerInformation
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
