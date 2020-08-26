@@ -146,6 +146,17 @@ tasks:
       trackBy: ''
       array: ''
       input: {}
+  task12:
+    schedule: cron(5 8 ? * 0)
+    action: tumblr/oauthCallback
+    accounts: {}
+    monitor:
+      action: tumblr/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
