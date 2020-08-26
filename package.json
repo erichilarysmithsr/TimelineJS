@@ -5,7 +5,8 @@
     "@datafire/yellowpages": "4.0.0",
     "@datafire/google_analytics": "5.0.0",
     "@datafire/postmarkapp_account": "5.0.0",
-    "@datafire/google_tagmanager": "5.0.0"
+    "@datafire/google_tagmanager": "5.0.0",
+    "@datafire/google_tasks": "5.0.0"
   },
   "name": "wordbuybigmouthpublications",
   "version": "1.0.0"
