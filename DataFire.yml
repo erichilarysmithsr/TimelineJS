@@ -87,6 +87,17 @@ tasks:
       accounts: {}
       trackBy: ''
       array: ''
+  task7:
+    schedule: cron(5 8 ? * 0)
+    action: google_youtube/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_youtube/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
