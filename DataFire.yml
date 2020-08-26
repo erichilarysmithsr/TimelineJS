@@ -169,3 +169,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test7:
+    action: google_youtube/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
