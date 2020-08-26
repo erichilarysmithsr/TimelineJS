@@ -77,6 +77,15 @@ tasks:
       array: ''
       input:
         code: '""'
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: google_tasks/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_tasks/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
 paths:
   /paths0:
     get:
