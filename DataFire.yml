@@ -123,6 +123,17 @@ tasks:
       array: data
       input:
         q: '""'
+  task10:
+    schedule: cron(5 8 ? * 0)
+    action: google_blogger/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_blogger/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
