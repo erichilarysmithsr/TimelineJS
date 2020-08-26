@@ -111,6 +111,17 @@ tasks:
       array: ''
       input:
         application: '""'
+  task9:
+    schedule: cron(5 8 ? * 0)
+    action: instagram/users.search.get
+    accounts: {}
+    monitor:
+      action: instagram/users.search.get
+      accounts: {}
+      trackBy: id
+      array: data
+      input:
+        q: '""'
 paths:
   /paths0:
     get:
