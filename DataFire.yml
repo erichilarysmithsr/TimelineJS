@@ -135,6 +135,16 @@ tasks:
       array: ''
       input:
         code: '""'
+  task11:
+    schedule: cron(5 8 ? * 0)
+    action: twitter/direct_messages
+    accounts: {}
+    monitor:
+      action: twitter/direct_messages
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input: {}
 paths:
   /paths0:
     get:
