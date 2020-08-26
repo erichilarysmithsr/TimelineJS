@@ -127,6 +127,10 @@ paths:
     get:
       action: google_tasks/oauthCallback
       accounts: {}
+  /paths7:
+    get:
+      action: google_youtube/oauthCallback
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
