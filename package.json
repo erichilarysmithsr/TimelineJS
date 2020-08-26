@@ -10,7 +10,8 @@
     "@datafire/google_youtube": "5.0.0",
     "@datafire/facebook": "4.0.0",
     "@datafire/instagram": "5.0.0",
-    "@datafire/google_blogger": "5.0.0"
+    "@datafire/google_blogger": "5.0.0",
+    "@datafire/twitter": "3.0.0"
   },
   "name": "wordbuybigmouthpublications",
   "version": "1.0.0"
