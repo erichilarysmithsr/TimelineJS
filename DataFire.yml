@@ -99,6 +99,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task8:
+    schedule: cron(5 8 ? * 0)
+    action: facebook/application.get
+    accounts: {}
+    monitor:
+      action: facebook/application.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        application: '""'
 paths:
   /paths0:
     get:
