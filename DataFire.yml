@@ -148,3 +148,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test6:
+    action: google_tasks/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
