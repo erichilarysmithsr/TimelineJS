@@ -272,3 +272,8 @@ tests:
     action: twitter/direct_messages
     accounts: {}
     input: {}
+  test12:
+    action: tumblr/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
