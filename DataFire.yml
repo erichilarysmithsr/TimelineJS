@@ -143,6 +143,10 @@ paths:
     get:
       action: google_youtube/oauthCallback
       accounts: {}
+  /paths8:
+    get:
+      action: facebook/application.get
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
