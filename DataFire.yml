@@ -206,6 +206,10 @@ paths:
     get:
       action: twitter/direct_messages
       accounts: {}
+  /paths12:
+    get:
+      action: tumblr/oauthCallback
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
