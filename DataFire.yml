@@ -175,6 +175,10 @@ paths:
     get:
       action: instagram/users.search.get
       accounts: {}
+  /paths10:
+    get:
+      action: google_blogger/oauthCallback
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
