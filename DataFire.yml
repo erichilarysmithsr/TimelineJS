@@ -159,6 +159,10 @@ paths:
     get:
       action: facebook/application.get
       accounts: {}
+  /paths9:
+    get:
+      action: instagram/users.search.get
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
