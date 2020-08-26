@@ -232,3 +232,8 @@ tests:
     accounts: {}
     input:
       q: '""'
+  test10:
+    action: google_blogger/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
