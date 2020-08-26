@@ -211,3 +211,8 @@ tests:
     accounts: {}
     input:
       application: '""'
+  test9:
+    action: instagram/users.search.get
+    accounts: {}
+    input:
+      q: '""'
