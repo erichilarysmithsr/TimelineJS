@@ -190,6 +190,10 @@ paths:
     get:
       action: google_blogger/oauthCallback
       accounts: {}
+  /paths11:
+    get:
+      action: twitter/direct_messages
+      accounts: {}
 tests:
   test:
     action: mailchimp/getPing
