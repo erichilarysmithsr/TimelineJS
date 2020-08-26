@@ -190,3 +190,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test8:
+    action: facebook/application.get
+    accounts: {}
+    input:
+      application: '""'
